@@ -153,23 +153,32 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: white;
   text-decoration: none;
   background-color: transparent;
 }
 
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-a:not([href]) {
-  color: inherit;
+a:link {
+  color: white;
+  background-color: transparent;
   text-decoration: none;
 }
 
-a:not([href]):hover {
-  color: inherit;
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
   text-decoration: none;
 }
 
@@ -545,6 +554,18 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.links{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .contact-form{
