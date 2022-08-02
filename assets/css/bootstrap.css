@@ -624,7 +624,7 @@ pre code {
 }
 
 .education {
-  margin-left: 30%;
+  padding-left: 37px;
 }
 
 @media (min-width: 576px) {
