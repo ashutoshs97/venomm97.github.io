@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+  <!--Java Script-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/7d405a99ed.js" crossorigin="anonymous"></script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176826419-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -459,49 +473,80 @@
 
   <!-- Footer -->
   <div class="vg-footer" id="contact">
-    <div class="container">
+    <div class="container footercontainer">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Contact</div>
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
-
       <div class="row">
-        <div class="col-md-6 col-lg-3 py-3">
-          <div class="float-lg-right">
-            <h6 class="text-center fw-normal wow fadeInUp links footer-link"><a href="www.instagram.com/shaayyrr" style="text-decoration: none" >Instagram</a>
-              </h1>
-
+        <div class="col-md-6 col-lg-12 py-3">
+          <div class="float-lg-right social-links">
+            <ul class="list-unstyled">
+              <a href="" class="social-names">INSTAGRAM</a></li>
+              <a href="#" class="social-names">GITHUB</a></li>
+              <a href="#" class="social-names">MAIL</a></li>
+              <a href="#" class="social-names">TWITTER</a></li>
+              <a href="#" class="social-names">LINKEDIN</a></li>
+              <a href="#" class="social-names">LINKTREE</a></li>
+            </ul>
           </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12 mb-3">
+          <h3 class="fw-normal text-center">Subscribe</h3>
+        </div>
+        <div class="col-lg-6">
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email address">
+              <input type="submit" class="btn btn-theme no-shadow" value="Subscribe">
+            </div>
+          </form>
+        </div>
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">Copyright &copy;2022. All right reserved | Made with <span
+              class="ti-heart fg-theme-red"></span> by <a href="https://www.macodeid.com/">Ashutosh Sharma</a></p>
         </div>
       </div>
     </div>
   </div>
-  </div>
   <!-- End footer -->
 
-
+  <!--Scripts-->
   <script src="../assets/js/jquery-3.5.1.min.js"></script>
-
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
-
   <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-
   <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
   <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
-
   <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
-
   <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
-
   <script src="../assets/vendor/wow/wow.min.js"></script>
-
   <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
-
   <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-
   <script src="../assets/js/topbar-virtual.js"></script>
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
+  <script src='js/typewriter.js'></script>
 
+  <script>
+    function change_theme() {
+
+      if (document.theme == undefined || document.theme == 'dark') {
+        document.theme = 'light'
+        document.documentElement.style.filter = 'invert(1)';
+        // document.getElementsByClassName("theme-button").innerHTML = "Dark";
+      } else if (document.theme == 'light') {
+        document.theme = 'dark'
+        document.documentElement.style.filter = 'invert(0)';
+        // document.getElementById("theme-button").innerHTML = "Light";
+      }
+    }
+  </script>
 </body>
 
 </html>
