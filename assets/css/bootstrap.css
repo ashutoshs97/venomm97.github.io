@@ -587,6 +587,8 @@ pre code {
 }
 
 .social-links {
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 13%;
@@ -600,12 +602,6 @@ pre code {
   padding-left: 20px;
 }
 
-.social-names:hover {
-  transform: scale(1.2);
-  color: #ff4c68;
-}
-
-
 .links {
   display: inline-block;
   padding-left: 20px;
@@ -616,6 +612,11 @@ pre code {
   margin-top: 1em;
   font-size: 16px;
   font-weight: bold;
+}
+
+.subscribe{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .contact-form {
