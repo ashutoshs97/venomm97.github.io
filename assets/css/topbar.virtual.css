@@ -80,7 +80,7 @@
 
 .page-home .navbar {
   position: absolute;
-  top: auto;
+  top: 0;
   left: 0;
   width: 100%;
   padding-top: 6px;
