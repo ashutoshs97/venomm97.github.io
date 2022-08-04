@@ -1,2 +1,2 @@
 My Personal Website 
-LIVE on ashu97.netlify.app/
+LIVE on https://ashu97.netlify.app/
