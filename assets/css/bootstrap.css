@@ -5702,7 +5702,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -11536,3 +11536,48 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+
+/*Typing Text*/
+
+
+:root {
+  --bg-color: #2e3d4b;
+  --text-color: #EF3724;
+}
+
+.typewriter {
+  font-size: 1.2rem;
+  color: #fff;
+  position: relative;
+  margin: 0;
+  top: 50%;
+}
+
+.typewriter span {
+  color: var(--text-color);
+  padding: 1px;
+  border-right: solid var(--text-color) 2px;
+  animation: cursor 1s ease-in-out infinite;
+}
+
+@keyframes cursor {
+  from {
+    border-color: var(--text-color);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 576px) {
+  .typewriter {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .typewriter {
+    font-size: 1.2rem;
+  }
+}
+
